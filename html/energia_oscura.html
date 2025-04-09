@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ATLAS</title>
+    <a id="up"></a>
+<link rel="stylesheet" href="../css/boton.css">
+          <link rel="stylesheet" href="../css/secondary.css">
+</head>
+</head>
+<body bgcolor="#8CC5FD">
+    <header>
+      <h1 style="font-size:55px"><strong><img src="../img/logo.png" width="100" height="100" alt="logo" align="absbottom">ATLAS</strong></h1>
+      <h2>¡El Sitio donde encuentras todo para conocer y poco<br>
+      para querer dejar de descubrir! </h2>
+      
+      </header>
+          <BR>
+<div class="boton">
+<a href="../index.html">Inicio</a></div>
+    <main>
+        <section>
+        <blockquote>
+        
+            <h1>Energ&iacute;a Oscura</h1>
+            <h3>La energ&iacute;a del espacio
+            </h3>
+          <p align="justify">La energía oscura es el término que los astrónomos usan para referirse a la causa desconocida de la expansión acelerada del universo. Aunque algunas teorías sugieren que actúa como una presión negativa que expande el espacio, no se sabe con certeza si ejerce alguna fuerza. Existen varias hipótesis sobre su naturaleza, incluyendo cuatro explicaciones principales, aunque podría tratarse de algo completamente distinto.
+          <br>
+          <br>
+          <center>
+          <img src="../img/energia_oscura.jpg" width="40%">
+          </center>
+          <br>
+ 
+ <h1>La energ&iacute;a del vac&iacute;o</h1>
+ <p>
+Una posible explicación para la energía oscura es la energía del vacío, una energía fundamental presente en el espacio, que podría estar relacionada con la constante cosmológica de Einstein. Originalmente, Einstein la introdujo para equilibrar la gravedad y mantener un universo estático, pero la descartó tras descubrirse la expansión del universo.  
+
+Sin embargo, cuando se confirmó que la expansión es acelerada, algunos científicos sugirieron que la constante cosmológica podría tener un valor distinto de cero y estar asociada a la energía del vacío. Según la teoría cuántica de campos, el espacio nunca está completamente vacío, ya que existen partículas virtuales que aparecen y desaparecen, impulsadas por esta energía, lo que podría explicar la expansión cósmica.  
+
+No obstante, los cálculos predicen que la energía del vacío debería ser tan intensa que impediría la formación de estrellas y galaxias. Como el universo claramente existe, esto indica que la cantidad real de energía del vacío es mucho menor de lo esperado, un enigma conocido como “el problema de la constante cosmológica”, aún sin resolver.
+ </p>
+ <br>
+ <h1>La Quintaescencia</h1>
+ <p>
+Otra posible explicación para la energía oscura es la quintaesencia, un hipotético fluido o campo de energía que llena el espacio y se comporta de manera opuesta a la materia normal, variando en cantidad y distribución a lo largo del tiempo y el espacio.  
+
+Algunos científicos han propuesto que la quintaesencia podría ser una combinación de energía oscura y materia oscura, aunque actualmente se consideran fenómenos distintos. Mientras que ambas siguen siendo misterios, se estima que la materia oscura representa aproximadamente el 85% de toda la materia del universo.
+ </p>
+ 
+ 
+ 
+ 
+ 
+<h1>Un defecto en la relatividad general</h1>
+<p>
+Otra teoría sugiere que la energía oscura no es una entidad física, sino un indicio de que nuestra comprensión de la gravedad y la relatividad general es incompleta. Algunos científicos creen que modificando la teoría de Einstein, podríamos explicar la expansión acelerada del universo sin necesidad de recurrir a la energía oscura.  
+
+Una posible alternativa es la gravedad unimodular, una versión modificada de la relatividad general que Einstein propuso en 1919, la cual podría describir el universo sin requerir la existencia de energía oscura.
+</p>
+<br>
+<center>
+<img src="../img/energia_3.png" alt="energia_oscura_2" width="40%">
+<br>
+</center>
+<p>
+La energía oscura sigue siendo uno de los mayores misterios del universo, pero por primera vez contamos con herramientas avanzadas para investigarla.  
+
+Varios proyectos están en marcha para explorar su naturaleza:  
+<li>Misión Euclid (ESA, 2023): Creará un mapa 3D del universo para estudiar la influencia de la energía oscura en la evolución de la materia.  
+<li>Telescopio Nancy Grace Roman (NASA, 2027): Observará la energía oscura y la materia oscura con una resolución similar al Hubble, pero con un campo de visión 100 veces mayor.  
+<li>Observatorio Vera C. Rubin (Chile, 2025): Apoyará la investigación de la energía oscura desde la Tierra.  
+<li>Telescopio James Webb (NASA, 2021): Contribuirá a diversos estudios, incluida la energía oscura.  
+<li>Misión SPHEREx (NASA, 2025): Mapeará el cielo en el infrarrojo cercano, analizando más de 450 millones de galaxias para entender el origen del universo y la energía oscura.  
+
+<br>
+<br>
+
+Además, la NASA impulsa el proyecto de ciencia ciudadana Exploradores de la Energía Oscura, permitiendo a cualquier persona colaborar en esta investigación. Estos esfuerzos combinados podrían marcar una nueva era en la cosmología.
+</p>
+<br>
+<center>
+<video src="../multimedia/energia.mp4" width=50% height=50% controls><p></p></video>
+</center>
+<br>
+            
+            </blockquote>
+        </section>
+        <section>
+</section>
+    </main>
+
+<aside>
+          <div id="search">
+          <h2>Buscar en ATLAS</h2>
+                      <input type="text" id="busqueda" placeholder="Escribe algo..." />
+  <button onclick="redirigir()">Buscar</button>
+ <script>
+    // Diccionario de búsqueda
+    const rutas = {
+      "inicio": "../index.html",
+      "multiverso": "multiverso.html",
+      "energia oscura": "energia_oscura.html",
+      "teoria del big bang": "teoria_del_big_bang.html",
+    };
+
+    function redirigir() {
+      const valor = document.getElementById('busqueda').value.toLowerCase();
+
+      if (rutas[valor]) {
+        window.location.href = rutas[valor];
+      } else {
+        alert("Página no encontrada");
+      }
+    }
+
+    // Detectar tecla Enter
+    document.getElementById('busqueda').addEventListener('keydown', function(event) {
+      if (event.key === 'Enter') {
+        redirigir();
+      }
+    });
+  </script>
+     </div>
+  <h2>Tambien te podr&iacute;a interesar...</h2>
+                          <div align="center" class="sec">
+                          <h2 align="center">Multiverso</h2><p>La energía oscura es una forma de energía​ que estaría presente en todo el espacio, produciendo una presión que tiende a acelerar la expansión del universo. </p>
+                        <img src="../img/universo.gif" width="135px" height="95px" alt="universo">
+                        <br>
+                        <div class="minib">
+                        <a href="../html/multiverso.html">Leer m&aacute;s &raquo;</a>   </div>
+                        </div>
+    <div align="center" class="sec">
+          <h2 align="center">Teor&iacute;a del Big Bang</h2>
+<p>El Big Bang es una teoría física que describe cómo el universo se expandió desde un estado inicial de alta densidad y temperatura.</p>
+          <img src="../img/big_bang2.gif" width="135px" height="95px" alt="big_bang_gif">
+          <br>
+          <div class="minib">
+          <a href="../html/teoria_del_big_bang.html">Leer m&aacute;s&raquo;</a> </div>
+    </div> 
+
+</aside>
+
+
+    <footer>
+    
+    <center>
+<BR>
+<div class="boton">
+            <a href="#up">Volver arriba</a>
+</div>
+        <p>&copy; DERECHOS RESERVADOS 2025</p>
+ </center>
+    </footer>
+</body>
+</html>

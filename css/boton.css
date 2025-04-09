@@ -1,0 +1,42 @@
+.boton a{
+background:#0CF;
+color:white;
+font-size:18px;
+padding:15px 10px;
+border-radius:5px;
+width:100px;
+margin:15px auto;
+text-align:center;
+position:center;
+text-align:center;
+width:150px;
+height:30px;
+}
+.boton a:hover{
+background:#039;
+}
+
+#backB{
+	margin-left:3%;
+}
+
+#baletern{
+	clear:both;
+}
+
+.minib{
+	background:#0CF;
+color:white;
+border-radius:5px;
+width:90px;
+height:23px;
+padding-top:7px;
+}
+.minib a:hover{
+background:#6FF
+}
+#goup{
+	clear:both;
+
+}
+

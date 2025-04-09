@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ATLAS</title>
+    <a id="up"></a>
+          <link rel="stylesheet" href="../css/boton.css">
+          <link rel="stylesheet" href="../css/secondary.css">
+</head>
+<body bgcolor="#8CC5FD">
+    <header>
+      <h1 style="font-size:55px"><strong><img src="../img/logo.png" width="100" height="100" alt="logo" align="absbottom">ATLAS</strong></h1>
+      <h2>¡El Sitio donde encuentras todo para conocer y poco<br>
+      para querer dejar de descubrir! </h2>
+
+       
+      </header>
+<br>
+<div class="boton" id="backB"">
+<a href="../index.html">Inicio</a>
+</div>
+
+
+    <main>
+
+        <section>
+
+        <blockquote>
+            <h1>Multiverso</h1>
+            <h3>M&aacute;s all&aacute; de nuestro universo
+            </h3>
+          <p align="justify">El concepto de multiverso fue mencionado por primera vez en 1895 por William James, aunque siglos antes ya aparecía en la obra Bhagavata-purana de Viasa. Este término engloba espacio, tiempo, materia, energía y movimiento, y sigue siendo objeto de nuevos descubrimientos científicos. La teoría del Big Bang resulta insuficiente para explicarlo completamente, y algunos científicos proponen múltiples explosiones, una por cada universo. Además, ideas antes consideradas ficción, como universos paralelos o ocultos que podrían interactuar con el nuestro, están ganando relevancia en la comunidad científica.
+          <br>
+          <br>
+          <center>
+          <img src="../IMG/multiverso.jpg" width="40%">
+          </center>
+          <br>
+ <h1>Teor&iacute;a de los Universos Infinitos</h1>
+ <p>
+ La teoría de los universos infinitos propone una expansión constante e infinita, sugiriendo que podríamos existir en múltiples realidades simultáneamente. Contrasta con el estudio de Stephen Hawking, quien veía el universo como un holograma con una expansión aparente y limitaba la cantidad de universos a un número finito. Por otro lado, el investigador Bruno Bento desafía la idea del Big Bang, planteando que la materia podría no tener un inicio, sino existir eternamente sin un comienzo definido.
+ </p>
+ <br>
+ <h1>Teor&iacute;a de los Universos Burbuja</h1>
+ <p>
+ La teoría de los universos burbuja sostiene que estos pueden colisionar entre sí, algo que pudo ocurrir en los inicios del universo, aunque ahora es menos probable debido a su expansión constante. La cosmóloga Hiranya Peiris y su equipo han encontrado evidencia en la radiación de fondo de microondas (CMB), observando anomalías que refuerzan esta teoría. Sin embargo, aunque estos descubrimientos la respaldan, sigue siendo difícil abandonar las teorías tradicionales.
+ </p>
+<h1>Teor&iacute;a de Cuerdas</h1>
+<p>
+En tanto, la teoría de cuerdas propone que las partículas subatómicas, como los electrones y los quarks, no son partículas puntuales, sino que son en realidad cuerdas vibrantes extremadamente p equeñas, mucho más pequeñas que cualquier cosa que se haya medido hasta ahora.
+</p>
+<br>
+<center>
+<img src="../img/cuerdas.jpg" alt="cuerdas" width="40%">
+<br>
+</center>
+<p>
+ La teoría de cuerdas también propone la existencia de dimensiones adicionales más allá de las tres dimensiones espaciales y la dimensión temporal que observamos en nuestra experiencia diaria. Estas dimensiones adicionales podrían estar enrolladas o compactadas a escalas extremadamente pequeñas, lo que significa que no las podemos ver directamente, pero tienen un efecto en las propiedades de las partículas y las fuerzas.
+
+Concretamente, la teoría postula la existencia de 11 dimensiones, donde la supergravedad interactúa entre membranas que van desde 2 hasta 5 dimensiones.
+
+Esto sugiere la existencia de un número infinito de universos paralelos, algunos de los cuales pueden ser similares al nuestro con diferencias mayores o menores, mientras que otros podrían tener 4 o 5 dimensiones.
+</p>
+<br>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OnYilIHfjOs?si=Dfh4CYx8xo0bT8nU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+<br>
+            </blockquote>
+            <center>
+
+            </center>
+        </section>
+        <section>
+</section>
+    </main>
+  <aside>
+          <div id="search">
+          <h2>Buscar en ATLAS</h2>
+          <input type="text" id="busqueda" placeholder="Escribe algo..." />
+  <button onclick="redirigir()">Buscar</button>
+ <script>
+    // Diccionario de búsqueda
+    const rutas = {
+      "inicio": "../index.html",
+      "multiverso": "multiverso.html",
+      "energia oscura": "energia_oscura.html",
+      "teoria del big bang": "teoria_del_big_bang.html",
+    };
+
+    function redirigir() {
+      const valor = document.getElementById('busqueda').value.toLowerCase();
+
+      if (rutas[valor]) {
+        window.location.href = rutas[valor];
+      } else {
+        alert("Página no encontrada");
+      }
+    }
+
+    // Detectar tecla Enter
+    document.getElementById('busqueda').addEventListener('keydown', function(event) {
+      if (event.key === 'Enter') {
+        redirigir();
+      }
+    });
+  </script>
+     </div>
+  <h2>Tambien te podr&iacute;a interesar...</h2>
+                          <div align="center" class="sec">
+                          <h2 align="center">Energ&iacute;a Oscura</h2><p>La energía oscura es una forma de energía​ que estaría presente en todo el espacio, produciendo una presión que tiende a acelerar la expansión del universo. </p>
+                        <img src="../img/energia_2.gif" width="135px" height="95px" alt="energia_gif">
+                        <br>
+                        <div class="minib">
+                        <a href="../html/energia_oscura.html">Leer m&aacute;s &raquo;</a>   </div>
+                        </div>
+    <div align="center" class="sec">
+          <h2 align="center">Teor&iacute;a del Big Bang</h2>
+<p>El Big Bang es una teoría física que describe cómo el universo se expandió desde un estado inicial de alta densidad y temperatura.</p>
+          <img src="../img/big_bang2.gif" width="135px" height="95px" alt="big_bang_gif">
+          <br>
+          <div class="minib">
+          <a href="../html/teoria_del_big_bang.html">Leer m&aacute;s&raquo;</a> </div>
+    </div> 
+
+
+  </aside>
+    <footer>
+    <br>
+    <center>
+         <div class="boton" id="goup">
+            <a href="#up">Volver arriba</a>
+         </div>
+    </center>
+    <br>
+    <center>
+        <p>&copy; DERECHOS RESERVADOS 2025</p>
+        </center>
+    </footer>
+</body>
+</html>

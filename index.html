@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+   <head>
+    <meta charset="UTF-8">
+
+      <link rel="stylesheet" href="css/box.css">
+      <link rel="stylesheet" href="css/boton.css">
+</head>
+
+<header>
+    <title>ATLAS</title>
+    <h1 align="center" style="font-size:55px"><strong>
+      <img src="logo.png" width="100" height="100" alt="logo align="absbottom">ATLAS</strong></h1>
+      
+      <h2 align="center">¡El Sitio donde encuentras todo para conocer y poco<br>
+      para querer dejar de descubrir! </h2>
+      <br>
+      <hr>
+</header>
+<br>
+<body bgcolor="#8CC5FD">
+    
+      
+        <nav>
+            <div align="center" class="boton">
+            <font size="3"><a align="center" href="html/energia_oscura.html">Energia Oscura</a> </font>
+            </center>  
+            <font size="3"><a align="center" href="html/teoria_del_big_bang.html">Teor&iacute;a del Big Bang</a></font>
+            </center> 
+            <font size="3"><a align="center" href="html/multiverso.html">Multiverso</a></font>
+            </center>
+            </div>
+        </nav>  
+      
+      
+      
+      
+      
+      
+     
+    <blockquote id="contain">
+        <h2 align="center">MISTERIOS DEL UNIVERSO</h2>
+        <h3 align="center">¿Alguna vez te preguntaste sobre el universo?
+          <br>te lo resumimos
+        </h3>
+            
+      <p align="center"><img src="IMG/satelite.png" width="350" height="250" alt="satelite">
+      </p>
+
+        <h4 align="center">Aqui tu conexion y seguridad son totalmente seguras y privadas! </h4>
+            
+
+
+</blockquote>
+            
+            
+            
+<hr align="center">
+           <main align="center">
+    <div id="search">
+          <h2>Buscar en ATLAS</h2>
+                      <input type="text" id="busqueda" placeholder="Escribe algo..." />
+  <button onclick="redirigir()">Buscar</button>
+ <script>
+    // Diccionario de búsqueda
+    const rutas = {
+      "inicio": "index.html",
+      "multiverso": "html/multiverso.html",
+      "energia oscura": "html/energia_oscura.html",
+      "teoria del big bang": "html/teoria_del_big_bang.html",
+    };
+
+    function redirigir() {
+      const valor = document.getElementById('busqueda').value.toLowerCase();
+
+      if (rutas[valor]) {
+        window.location.href = rutas[valor];
+      } else {
+        alert("Página no encontrada");
+      }
+    }
+
+    // Detectar tecla Enter
+    document.getElementById('busqueda').addEventListener('keydown', function(event) {
+      if (event.key === 'Enter') {
+        redirigir();
+      }
+    });
+  </script>
+     </div>
+            <center>
+            <blockquote>
+                        <div align="center" class="sec">
+                          <h2 align="center">Energ&iacute;a Oscura</h2><p>La energía oscura es una forma de energía​ que estaría presente en todo el espacio, produciendo una presión que tiende a acelerar la expansión del universo. </p>
+                        <img src="img/energia_2.gif" width="50%" height="35%" alt="energia_gif">
+                        <br>
+                        
+<div class="minib">                        <a href="html/energia_oscura.html">Leer m&aacute;s &raquo;</a>
+</div>
+                        </div>
+</blockquote>
+           
+          <blockquote>
+            <div align="center" class="sec">
+          <h2 align="center">Teor&iacute;a del Big Bang</h2>
+<p>El Big Bang es una teoría física que describe cómo el universo se expandió desde un estado inicial de alta densidad y temperatura.</p>
+          <img src="img/big_bang2.gif" width="50%" height="35%" alt="big_bang_gif">
+          <br>
+          
+          
+          <div class="minib">
+          <a href="html/teoria_del_big_bang.html">Leer m&aacute;s&raquo;</a>      </div>
+
+            </div>
+          </blockquote>
+          
+          <div align="center">
+             
+</div>
+          
+          <blockquote>
+            <div align="center" class="sec">
+                      <h2 align="center">Multiverso</h2>
+<p>Cada teoría del multiverso nos intenta explicar el todo de este mundo físico. Son muchas hipótesis que llevan a plantearnos que no somos los únicos seres vivos del cosmos.</p>
+          <img src="img/universo.gif" width="50%" height="35%" alt="universo_gif">
+          <br>
+          <div class="minib">
+          <a href="html/multiverso.html">Leer m&aacute;s &raquo;</a>
+           </div>
+           </div>
+          </blockquote>
+          </ul></center>
+          <br>
+          </main>        
+<footer>
+    <hr>
+      <p align="center">&copy; DERECHOS RESERVADOS 2025</p>
+    </footer>
+</body>
+</html>
